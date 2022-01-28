@@ -1,3 +1,1 @@
-SELECT * FROM northwind.products
-WHERE id >= 5
-LIMIT 10;
+SELECT * FROM northwind.products LIMIT 10 OFFSET 3;
